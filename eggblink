@@ -1,0 +1,13 @@
+int led = 13;
+void setup()
+{
+pinMode(led,OUTPUT);
+delay(50);
+}
+
+void loop()
+{
+delay(200000);
+pinMode(led,HIGH);
+delay(5000);
+}
